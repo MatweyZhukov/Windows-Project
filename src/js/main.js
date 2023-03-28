@@ -19,5 +19,3 @@ window.addEventListener('DOMContentLoaded', () => {
 	timer('.container1', deadline);
 	images();
 });
-
-alert(5)
