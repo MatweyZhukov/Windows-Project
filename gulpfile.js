@@ -4,7 +4,7 @@ const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
-// const dist = "D:/MAMP/htdocs/Windows";
+// const dist = "D:/MAMP/htdocs/Windows"; path to your local server (for testing forms)
 const dist = "./dist/";
 
 gulp.task("copy-html", () => {
